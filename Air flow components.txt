@@ -1,0 +1,17 @@
+*********COMPONENTS********
+
+1) task - that perform in DAG
+
+2) operator - its a function provided to create the task
+   ex 1. bash operator,  2.python opertor
+
+3) DAG - collection of diff task is called DAG
+
+4) executor - its used to run the  DAG. executor determine how your task run
+
+
+******** Documentation link *****
+
+Airflow LINKS:  https://airflow.apache.org/docs/apache-airflow-providers-http/4.4.1/operators.html
+
+Current Weather data : https://openweathermap.org/current

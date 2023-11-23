@@ -1,0 +1,26 @@
+ sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas 
+sudo pip install s3fs
+sudo pip install tweepy
+sudo apt  install awscli
+
+airflow standalone
+
+cd airflow
+
+sudo nano airflow.cfg ---make changes in dags_folder
+
+mkdir weather_dags
+
+sudo nano openweather.py   ---------paste entrire code
+
+
+**ADD CONNECTION IN AIRFLOW **
+
+Connection Id : weathermap_api
+Connection Type : http
+Host : https://api.openweathermap.org
+
+
