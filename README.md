@@ -1,14 +1,14 @@
-# Twitter-Airflow-Data-Engineering-Project
+# OpenWeather-airflow-data-engineering-project
 
 ## Project Overview
-This end-to-end data engineering project involves extracting data from the Twitter API, performing an ETL (Extract, Transform, Load) process using Apache Airflow on an Amazon EC2 instance, and ultimately storing the transformed data in an Amazon S3 bucket. This project demonstrates the full data pipeline, from data acquisition to storage, making it a comprehensive data engineering solution.
+This end-to-end data engineering project involves extracting data from the OpenWeather API, performing an ETL (Extract, Transform, Load) process using Apache Airflow on an Amazon EC2 instance, and ultimately storing the transformed data in an Amazon S3 bucket. This project demonstrates the full data pipeline, from data acquisition to storage, making it a comprehensive data engineering solution.
 
 ## Architecture Diagram
-   <img src="Images/Architecture.jpg">
+   <img src="https://github.com/SatishBirhade/OpenWeather-airflow-data-engineering-project/blob/7867a1a049d313f49b3758520d301373bc733091/Architecture.jpg">
 
 ## Services Used
 1. **Apache Airflow :** Apache Airflow is an open-source platform designed to programmatically author, schedule, and monitor workflows. It is particularly well-suited for orchestrating complex data workflows, automating tasks, and managing dependencies between different tasks or processes.
-2. **Twitter API :** The Twitter API is a developer interface for accessing and interacting with Twitter's data and services. It enables tasks like posting tweets, following users, and retrieving tweets programmatically. Developers use it to build Twitter-related applications and perform data analysis.
+2. **OpenWeather:** The OpenWeather is a developer interface for accessing and interacting with OpenWeather data and services. Developers use it to build Current weather data applications and perform data analysis.
 3. **Amazon EC2 :** Amazon Elastic Compute Cloud (Amazon EC2) is a web service offered by Amazon Web Services (AWS) that provides resizable compute capacity in the cloud. It allows users to launch and manage virtual servers, known as EC2 instances, to run applications and workloads.
 4. **Amazon S3 (Simple Storage Service) :** Amazon S3 is an object storage service known for its manufacturing scalability, data availability, security, and performance.
    
@@ -18,7 +18,7 @@ These services are integral to our project and will collectively support our dat
 
 ### Data Extraction and Transformation
 
-* **Data Extraction from Twitter API :** The project begins with the extraction of data from the Twitter API using a custom ETL script. This script retrieves data based on specific queries or criteria.
+* **Data Extraction from Twitter API :** The project begins with the extraction of data from the OpenWeather API using a custom ETL script. This script retrieves data based on specific queries or criteria.
 
 * **Data Transformation :** The extracted data, typically in JSON format, is transformed into a structured DataFrame (DF) format. This transformation includes cleaning, filtering, and organizing the data for further processing.
 
@@ -48,7 +48,7 @@ These services are integral to our project and will collectively support our dat
 
 ## Conclusion
 
-In summary, this comprehensive data engineering project encompasses data extraction from Twitter, data transformation, local storage, EC2 setup, Apache Airflow deployment, ETL code integration, and data storage in an Amazon S3 bucket. It demonstrates a full end-to-end pipeline for handling and analyzing Twitter data.
+In summary, this comprehensive data engineering project encompasses data extraction from OpenWeather Api, data transformation, local storage, EC2 setup, Apache Airflow deployment, ETL code integration, and data storage in an Amazon S3 bucket. It demonstrates a full end-to-end pipeline for handling and analyzing OpenWeather data.
 
 
 
