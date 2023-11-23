@@ -44,7 +44,7 @@ These services are integral to our project and will collectively support our dat
 * **Storing Transformed Data in Amazon S3 :** The final step of the ETL pipeline involves storing the processed data in an Amazon S3 bucket. Amazon S3 provides secure, durable, and scalable object storage for the data.
 
 ## Output Image
-   <img src="Images/OutPut.jpg">
+   <img src="output.png">
 
 ## Conclusion
 
